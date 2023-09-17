@@ -30,6 +30,12 @@ To run docker, you need to build a custom kernel, see
     - Some packages(e.g. fakeroot) provides a configure option to use other IPC mechanisms. We will use that option if possible.
     - Otherwise, nothing is done(yet) and you need a custom kernel with SYSVIPC enabled to use those packages.
 
+## Project Status
+
+Initial bootstrap has been done. But all packages are built in a dirty way, i.e not in a clean chroot.
+
+A lot of work needs to be done to make this project usable.
+
 ## Platform Support Status
 
 Android 13 is the only supported platform for now. Other platforms may work, but I didn't test them.
